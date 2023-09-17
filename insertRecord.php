@@ -22,12 +22,11 @@
     $res = mysqli_query($connection, $sql_query);
 
     //res=1 after success
-    if($res){
+    if ($res) {
 
         echo "<h3> Record successfully Insert</h3>";
-    
     }
-    
+
 
     mysqli_close($connection);
     ?>
