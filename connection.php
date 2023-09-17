@@ -6,28 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Connection - PHP</title>
 
-    <style>
-        h1 {
-            text-align: center;
-            color: red;
-            font-size: 40px;
-            text-transform: uppercase
-        }
-
-        h2 {
-            text-align: center;
-            color: red;
-            font-size: 35px;
-            text-transform: uppercase
-        }
-
-        h3 {
-            text-align: center;
-
-            color: blue;
-            font-size: 30px
-        }
-    </style>
+    
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
