@@ -10,6 +10,7 @@
     
 
 <?php
+
 // establishing database connection
 //! additionally database name have to pass in connection string 
 $connection=mysqli_connect("localhost","root","","db");
@@ -36,6 +37,8 @@ if($res){
 
 
 mysqli_close($connection);
+
+
 ?>
 </body>
 </html>
