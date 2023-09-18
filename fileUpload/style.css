@@ -33,7 +33,7 @@ height: 40px;
     width: 102%;
     border: none;
 
-    cursor: pointer;
+    
     color: white;
     background-color: #0291aa;
     transition: all 0.2s;
@@ -42,9 +42,15 @@ height: 40px;
 .container input[type="submit"]:hover{
     color: white;
     background-color: #013c47;
-
+    cursor:pointer;
 }
 #output{
 
     width: 100%;
+}
+
+#msg{
+margin-left: 2%;
+font-size: 30px;
+    color: red !important;
 }
