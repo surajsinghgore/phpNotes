@@ -8,12 +8,25 @@
 </head>
 <body>
     
+<div class="container">
 
     <form action="files.php" method="post" enctype="multipart/form-data">
         <div class="row">
-            <input type="file" name="filesInput" required>
+            <input type="file" name="filesInput" onchange="loadFile(event)" required>
+
+            <div class="imagePreview" id="imagePreview">
+                <span id="msg">
+
+                    Please Select Image to Preview
+                </span>
+<img id="output"/>
+            </div>
             <input type="submit" name="submit" value="Upload">
         </div>
     </form>
+</div>
+
+
+<script src="./script.js"></script>
 </body>
 </html>
