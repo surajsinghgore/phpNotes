@@ -1,56 +1,50 @@
-*{
-
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.container{
-width: 100%;
-padding-top: 5%;
-height: 89vh;
-background-color: rgb(251, 251, 251);
-display: flex;
-justify-content: center;
+.container {
+  width: 100%;
+  padding-top: 5%;
+  height: 89vh;
+  background-color: rgb(251, 251, 251);
+  display: flex;
+  justify-content: center;
 }
 
-
-.container input[type="file"]{
-height: 40px;
-    width: 100%;
+.container input[type="file"] {
+  height: 40px;
+  width: 100%;
 }
-.container .imagePreview{
-
-    width: 490px;
+.container .imagePreview {
+  width: 490px;
 
   color: rgb(64, 64, 64);
-    height: 300px;
-    margin-bottom: 4%;
-    background-color: #ebebeb;
+  height: 300px;
+  margin-bottom: 4%;
+  background-color: #ebebeb;
 }
-.container input[type="submit"]{
- 
-height: 40px;
-    width: 102%;
-    border: none;
+.container input[type="submit"] {
+  height: 40px;
+  width: 102%;
+  border: none;
 
-    
-    color: white;
-    background-color: #0291aa;
-    transition: all 0.2s;
+  color: white;
+  background-color: #0291aa;
+  transition: all 0.2s;
 }
 
-.container input[type="submit"]:hover{
-    color: white;
-    background-color: #013c47;
-    cursor:pointer;
+.container input[type="submit"]:hover {
+  color: white;
+  background-color: #013c47;
+  cursor: pointer;
 }
-#output{
-
-    width: 100%;
+#output {
+  width: 100%;
 }
 
-#msg{
-margin-left: 2%;
-font-size: 30px;
-    color: red !important;
+#msg {
+  margin-left: 2%;
+  font-size: 30px;
+  color: red !important;
 }

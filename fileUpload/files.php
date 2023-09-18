@@ -34,4 +34,3 @@ else{
     echo "<h1>Only Post Request Is Allowed</h1>";
 
 }
-?>
