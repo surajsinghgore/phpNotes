@@ -3,9 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>File Upload</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
+
+    <form action="files.php" method="post" enctype="multipart/form-data">
+        <div class="row">
+            <input type="file" name="filesInput" required>
+            <input type="submit" name="submit" value="Upload">
+        </div>
+    </form>
 </body>
 </html>
