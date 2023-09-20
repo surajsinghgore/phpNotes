@@ -73,7 +73,7 @@
       <div class="form-group row">
         <label for="inputEmail" class="col-sm-2 col-form-label">Mobile</label>
         <div class="col-sm-10">
-          <input type="Number" class="form-control" id="Number" name="Mobile" placeholder="Mobile" required>
+          <input type="Number" class="form-control" id="Number" name="mobile" placeholder="Mobile" required>
         </div>
       </div>
 
