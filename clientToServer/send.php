@@ -15,6 +15,10 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
         if ($res) {
 
             echo "<h1>Successfully Data Send</h1>";
+            mysqli_close($con);
+        } else {
+
+            echo "<h2>sorry>sorry data not send</h2>";
         }
     }
 } else {
