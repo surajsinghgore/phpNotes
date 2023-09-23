@@ -1,2 +1,2 @@
 # phpNotes
-<h1>Php Note App</h1>
+<p>Notes will we avaible soon</p>
