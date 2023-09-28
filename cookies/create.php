@@ -10,7 +10,7 @@
 //     bool $httponly = false
 // )
 // ! generated cookie for  1 day with secure as parameter so that javascript not access it
-setcookie("message","hello from cookies",time()+86400,"/","localhost",true,true);
+setcookie("message","hello from cookies",time()+86400,"/","localhost",true);
 echo "<h1>Cookie Generated Successfully</h1>";
 
 ?>
