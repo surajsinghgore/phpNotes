@@ -7,5 +7,5 @@ if (isset($_SESSION['name'])) {
         echo "<h2>Name " . $name . "</h2>";
         echo "<h2>Email " . $email . "</h2>";
 } else {
-    echo "<h1>Session Not created</h1>";
+    echo "<h1>Session Not read</h1>";
 }
