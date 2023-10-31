@@ -5,7 +5,7 @@
 </head>
 <body>
     <h1>FORM SUBMIT</h1>
-    <form action="Program30.php" method="POST">
+    <form action="program30.php" method="POST">
 Name: <input type="text" name="name"><br>
 Hobbies: <input type="checkbox" name="hb1" value="play"> Play
 <input type="checkbox" name="hb2" value="study"> Study
