@@ -13,7 +13,7 @@ $dir=".";
 echo "scandir() = ";
 echo "<pre>";
 print_r(scandir($dir));
-echo "<pre>";
+echo "</pre>";
 
 
 
